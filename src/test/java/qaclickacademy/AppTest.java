@@ -15,6 +15,7 @@ public class AppTest
      *
      * @param testName name of the test case
      */
+	
     public AppTest( String testName )
     {
         super( testName );
@@ -35,4 +36,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+public void print()
+{
+	System.out.println("changing from local");
+	System.out.println("changing from local2");
+	
+}
 }
